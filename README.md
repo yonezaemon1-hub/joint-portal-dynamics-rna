@@ -49,9 +49,15 @@ The reconstruction used ViennaRNA 2.7.2. Martin et al. used ViennaRNA 2.4.14. Th
 - `scripts/VERIFY_RELEASE_FROM_POWERSHELL.ps1` - release checksum/file integrity gate
 - `results/reference/` - frozen reference results from the completed run
 - `figures/` - manuscript figures
-- `paper/` - public preprint v1.1 (DOCX + PDF), including the 25 August 2026 prior-art re-audit
+- `paper/` - archived software-release snapshot includes preprint v1.1 files; the current preprint is v1.2 on Zenodo
 - `docs/PRIOR_ART_AND_CLAIM_BOUNDARY.md` - novelty boundary
 - `docs/THREE_PASS_PROOFREAD_REPORT.md` - corrections made before public release
+
+## Published identifiers
+
+- Preprint v1.2 DOI: **10.5281/zenodo.22095413** — https://doi.org/10.5281/zenodo.22095413
+- Archived software release v1.1.0 DOI: **10.5281/zenodo.22095082** — https://doi.org/10.5281/zenodo.22095082
+- Repository: https://github.com/yonezaemon1-hub/joint-portal-dynamics-rna
 
 ## Quick analytic reproduction (Windows PowerShell)
 
@@ -72,4 +78,4 @@ Repository-authored software is released under the MIT License. The manuscript i
 
 ## Citation
 
-Public author: **Ryutaro Yonezu**. Archived software release `v1.1.0`: DOI **10.5281/zenodo.22095082** (https://doi.org/10.5281/zenodo.22095082). Machine-readable citation metadata are provided in `CITATION.cff`.
+Public author: **Ryutaro Yonezu**. Cite the preprint with DOI **10.5281/zenodo.22095413** and the archived software release with DOI **10.5281/zenodo.22095082**. Machine-readable citation metadata are provided in `CITATION.cff`.
