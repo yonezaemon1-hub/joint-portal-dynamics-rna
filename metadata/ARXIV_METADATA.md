@@ -3,7 +3,7 @@
 - Primary category: q-bio.PE (Populations and Evolution)
 - Title: Joint Portal Dynamics on an RNA Neutral Network Improve Prediction of Competing Adaptive Fixations
 - Authors: Ryutaro Yonezu
-- Comments: 8 pages, 2 figures; computational preprint; code and frozen reference results available in the associated GitHub repository.
+- Comments: 8 pages, 2 figures; computational preprint; code and frozen reference results available in the associated GitHub repository; archived software release DOI 10.5281/zenodo.22095082.
 - License suggestion: arXiv's non-exclusive license to distribute (review the current arXiv license choices at submission).
 
 ## Abstract
@@ -12,6 +12,6 @@ Models of mutation-limited adaptation can fail when access to competing adaptive
 
 ## Files
 
-Upload `paper/Joint_Portal_Dynamics_RNA_Preprint_Final_v1_1.pdf` after author/repository/DOI metadata have been finalized. This PDF was generated from DOCX, not TeX.
+Upload `Joint_Portal_Dynamics_RNA_Preprint_Final_v1_2.pdf`. This PDF was generated from DOCX, not TeX. Preprint v1.2 adds the permanent GitHub repository and Zenodo software DOI identifiers; the scientific results and numerical values are unchanged from v1.1.
 
 First-time submission to a q-bio endorsement domain may require endorsement.
