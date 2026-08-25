@@ -11,3 +11,12 @@ repository-code: "https://github.com/yonezaemon1-hub/joint-portal-dynamics-rna"
 doi: "10.5281/zenodo.22095082"
 url: "https://doi.org/10.5281/zenodo.22095082"
 license: MIT
+preferred-citation:
+  type: article
+  title: "Joint Portal Dynamics on an RNA Neutral Network Improve Prediction of Competing Adaptive Fixations"
+  authors:
+    - family-names: "Yonezu"
+      given-names: "Ryutaro"
+  year: 2026
+  doi: "10.5281/zenodo.22095413"
+  url: "https://doi.org/10.5281/zenodo.22095413"
