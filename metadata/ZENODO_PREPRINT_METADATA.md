@@ -12,7 +12,14 @@
 
 Models of mutation-limited adaptation can fail when access to competing adaptive phenotypes is structured on the same neutral genotype network. Martin et al. (2024) showed that phenotype arrivals can be bursty and developed a burst-aware approximation for competing peaks, while explicitly identifying dependence between multiple phenotype-introduction processes as a remaining problem. Here we represent neutral motion and all successful adaptive exits as one state-resolved killed continuous-time Markov process. The mathematics is standard; the contribution tested is the joint application to competing phenotype portals on a shared RNA neutral network. In the published focal two-peak RNA system, our ViennaRNA 2.7.2 reconstruction contains 1,937 resident genotypes and 13,355 neutral edges, with 517 portal edges to the frequent adaptive phenotype p1 and 16 to the rarer phenotype p2, and zero portal-genotype overlap. Under N=500, per-site mutation rate 2 x 10^-5, s1=0.005, and six s2 values, we compared three analytic predictions with a direct count-level Wright-Fisher re-execution of 1,000 replicates per condition. Mean absolute error (MAE) was 0.2220 for the simple average-rate independent model, 0.0349 for the Martin et al. burst-aware independent model, and 0.01256 for the joint killed-Markov model. Thus the joint model reduced MAE by 64.0% relative to the stronger burst-aware independent baseline and by 94.3% relative to the average-rate baseline. It was closer than the burst-aware model in 5/6 conditions and closer than the average-rate model in 6/6. The result supports a narrow conclusion: when competing adaptive opportunities are exposed along the same structured neutral trajectory, retaining shared state information can materially improve prediction of the p2-first outcome, benchmarked here by a threshold-based Wright-Fisher takeover proxy, beyond models that combine phenotype-specific marginal statistics independently.
 
-## Related identifiers to add after GitHub release
+## Upload file
+
+- `Joint_Portal_Dynamics_RNA_Preprint_Final_v1_2.pdf`
+
+## Related identifiers
 
 - GitHub repository URL: https://github.com/yonezaemon1-hub/joint-portal-dynamics-rna
-- Software DOI: [ZENODO SOFTWARE DOI, if GitHub release is archived]
+- Archived software release v1.1.0 DOI: 10.5281/zenodo.22095082
+- Software DOI URL: https://doi.org/10.5281/zenodo.22095082
+
+Preprint v1.2 adds the permanent repository and software DOI identifiers. Scientific results and numerical values are unchanged from v1.1.
