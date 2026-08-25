@@ -6,4 +6,5 @@
 - Affiliation: Independent researcher
 - Publication date: 2026-08-25
 - GitHub repository: https://github.com/yonezaemon1-hub/joint-portal-dynamics-rna
+- Preprint v1.2 DOI: 10.5281/zenodo.22095413
 - Archived software release v1.1.0 DOI: 10.5281/zenodo.22095082
