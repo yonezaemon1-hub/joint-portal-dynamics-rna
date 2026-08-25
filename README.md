@@ -72,4 +72,4 @@ Repository-authored software is released under the MIT License. The manuscript i
 
 ## Citation
 
-The public author is **Ryutaro Yonezu**. A citation template is provided in `CITATION_TEMPLATE.cff`; the PowerShell publication script creates `CITATION.cff` after resolving the authenticated GitHub account URL.
+Public author: **Ryutaro Yonezu**. Archived software release `v1.1.0`: DOI **10.5281/zenodo.22095082** (https://doi.org/10.5281/zenodo.22095082). Machine-readable citation metadata are provided in `CITATION.cff`.
