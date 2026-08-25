@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+results/rna_fold_cache.json
+results/nc_nodes.json
+results/wf_*checkpoint*
+results/wf_condition_*
+results/analytic_predictions_N500.json
+results/wf_relaxed_*
+results/wf_direct_*
+results/comparison.csv
+results/comparison_summary.json

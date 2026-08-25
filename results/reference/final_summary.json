@@ -1,0 +1,60 @@
+{
+  "status": "PASS_WRIGHT_FISHER_DIRECT_COMPARISON_COMPLETE",
+  "date": "2026-08-24",
+  "environment": {
+    "OS": "Windows 10 build 19045",
+    "Python": "3.10.11",
+    "NumPy": "2.2.6",
+    "SciPy": "1.15.3",
+    "ViennaRNA": "2.7.2"
+  },
+  "parameters": {
+    "N": 500,
+    "mu_per_site": 2e-05,
+    "L": 12,
+    "s1": 0.005,
+    "s2": [0.01,0.02,0.04,0.08,0.16,0.32],
+    "reps_per_condition": 1000,
+    "relax_generations": 5000,
+    "seed": 20260823
+  },
+  "rna_map": {
+    "start_seq": "ACCUAAAAAAGG",
+    "p0": 19529749,
+    "p1": 27262981,
+    "p2": 27918661,
+    "neutral_nodes": 1937,
+    "neutral_edges": 13355,
+    "mean_neutral_degree": 13.789364997418689,
+    "p1_portal_edges": 517,
+    "p2_portal_edges": 16,
+    "portal_overlap": 0
+  },
+  "metrics": {
+    "MAE_average_rate_independent": 0.22200385695181643,
+    "MAE_Martin2024_burst_aware_independent": 0.03488920473185428,
+    "MAE_joint_killed_Markov": 0.012562310176492572,
+    "joint_error_reduction_vs_average_rate": 0.9434140003287461,
+    "joint_error_reduction_vs_burst_aware": 0.6399370443367249,
+    "average_rate_to_joint_MAE_ratio": 17.672215845079574,
+    "burst_aware_to_joint_MAE_ratio": 2.777292093705923,
+    "joint_closer_than_average_rate_conditions": 6,
+    "joint_closer_than_burst_aware_conditions": 5,
+    "predictions_within_WF_Wilson95": {"average_rate":1,"burst_aware":2,"joint":4}
+  },
+  "rows": [
+    {"s2_over_s1":2,"s2":0.01,"WF_p2_first":0.044,"WF_Wilson95_low":0.03294,"WF_Wilson95_high":0.05855,"average_rate_independent":0.057648733581252,"Martin2024_burst_aware_independent":0.047226502098996,"joint_killed_Markov":0.0397001970844079,"abs_error_average_rate":0.013648733581252,"abs_error_burst_aware":0.003226502098996005,"abs_error_joint":0.004299802915592},
+    {"s2_over_s1":4,"s2":0.02,"WF_p2_first":0.052,"WF_Wilson95_low":0.03987,"WF_Wilson95_high":0.06756,"average_rate_independent":0.1080459479544329,"Martin2024_burst_aware_independent":0.06726960731304489,"joint_killed_Markov":0.0479030574526657,"abs_error_average_rate":0.0560459479544329,"abs_error_burst_aware":0.015269607313044893,"abs_error_joint":0.0040969425473342},
+    {"s2_over_s1":8,"s2":0.04,"WF_p2_first":0.065,"WF_Wilson95_low":0.05132,"WF_Wilson95_high":0.08201,"average_rate_independent":0.1919310999146508,"Martin2024_burst_aware_independent":0.08746459940044177,"joint_killed_Markov":0.0534288695434666,"abs_error_average_rate":0.1269310999146508,"abs_error_burst_aware":0.022464599400441765,"abs_error_joint":0.0115711304565333},
+    {"s2_over_s1":16,"s2":0.08,"WF_p2_first":0.081,"WF_Wilson95_low":0.06565,"WF_Wilson95_high":0.09956,"average_rate_independent":0.3135522912856597,"Martin2024_burst_aware_independent":0.1077482277289561,"joint_killed_Markov":0.056699653274461,"abs_error_average_rate":0.2325522912856597,"abs_error_burst_aware":0.026748227728956103,"abs_error_joint":0.0243003467255389},
+    {"s2_over_s1":32,"s2":0.16,"WF_p2_first":0.068,"WF_Wilson95_low":0.05399,"WF_Wilson95_high":0.08531,"average_rate_independent":0.4582921095900362,"Martin2024_burst_aware_independent":0.13094232837761435,"joint_killed_Markov":0.0584852161480309,"abs_error_average_rate":0.3902921095900362,"abs_error_burst_aware":0.06294232837761435,"abs_error_joint":0.009514783851969},
+    {"s2_over_s1":64,"s2":0.32,"WF_p2_first":0.081,"WF_Wilson95_low":0.06565,"WF_Wilson95_high":0.09956,"average_rate_independent":0.5935529593848667,"Martin2024_burst_aware_independent":0.15968396347207256,"joint_killed_Markov":0.0594091454380122,"abs_error_average_rate":0.5125529593848668,"abs_error_burst_aware":0.07868396347207256,"abs_error_joint":0.0215908545619877}
+  ],
+  "claim_boundary": [
+    "No new Markov-chain mathematics is claimed.",
+    "The 94.34% error reduction is versus the simple average-rate independent baseline.",
+    "Against Martin et al. 2024 burst-aware independent baseline, the joint model reduces MAE by about 64.0% and is closer in 5 of 6 conditions.",
+    "The RNA map uses ViennaRNA 2.7.2 whereas Martin et al. used 2.4.14; focal phenotype and portal-frequency compatibility checks pass.",
+    "Evidence is computational and focal to one RNA neutral component."
+  ]
+}
